@@ -1,0 +1,8 @@
+{
+  "name": "Pi Face Particles",
+  "description": "A face-tracking particle system that renders your face using digits of Pi, reacting to audio.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
