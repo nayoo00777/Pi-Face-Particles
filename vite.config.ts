@@ -7,7 +7,7 @@ export default defineConfig(({mode}) => {
   const env = loadEnv(mode, process.cwd(), '');
   
   return {
-    // 경로를 아래와 같이 수정하면 대소문자 문제를 방지할 수 있습니다.
+    // 배포 시 경로 문제를 방지하기 위해 상대 경로(./)로 설정합니다.
     base: './', 
     
     plugins: [react(), tailwindcss()],
